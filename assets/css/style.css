@@ -637,10 +637,11 @@ section {
   font-weight: 700;
   font-size: 34px;
   color: #213b52;
+  margin-bottom: 20px;
 }
 
 .about .content p {
-  margin-bottom: 0;
+  margin-bottom: 28px;
 }
 
 .about .content .icon-box {
@@ -1200,6 +1201,7 @@ section {
 @media (max-width: 420px) {
   .pricing h3 {
     font-size: 18px; /* Adjusted for very small screens */
+    font-weight: bold;
    
   }
 }
