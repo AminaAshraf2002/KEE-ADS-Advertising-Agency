@@ -25,16 +25,10 @@
   <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
   <link href="assets/vendor/aos/aos.css" rel="stylesheet">
 
-
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
 
-  <!-- =======================================================
-  * Template Name: Bocor - v2.0.0
-  * Template URL: https://bootstrapmade.com/bocor-bootstrap-template-nice-animation/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
 </head>
 
 <body>
@@ -54,8 +48,7 @@
           <li class="active"><a href="#header">Home</a></li>
           <li><a href="#about">About Us</a></li>
           <li><a href="#services">Services</a></li>
-          <li><a href="#portfolio">Portfolio</a></li>
-          <li><a href="#team">Team</a></li>
+          <li><a href="#packages">Packages</a></li>
           <li><a href="#contact">Contact Us</a></li>
 
 
@@ -135,7 +128,6 @@
     <!-- ======= Services Section ======= -->
     <section id="services" class="services section-bg">
       <div class="container">
-
         <div class="section-title">
           <h2 data-aos="fade-in">Our Services</h2>
           <p data-aos="fade-in">
@@ -148,8 +140,8 @@
         <div class="row">
           <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-right">
             <div class="card">
-              <div class="card-img">
-                <img src="assets/img/services-1.jpg" alt="Video Ads">
+              <div class="card-icon">
+                <i class="fas fa-video"></i> <!-- Font Awesome Video Icon -->
               </div>
               <div class="card-body">
                 <h5 class="card-title"><a href="#">Engaging Video Ads</a></h5>
@@ -164,8 +156,8 @@
 
           <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-left">
             <div class="card">
-              <div class="card-img">
-                <img src="assets/img/services-2.jpg" alt="Poster Design">
+              <div class="card-icon">
+                <i class="fas fa-paint-brush"></i> <!-- Font Awesome Brush Icon -->
               </div>
               <div class="card-body">
                 <h5 class="card-title"><a href="#">Creative Poster Design</a></h5>
@@ -180,8 +172,8 @@
 
           <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-right">
             <div class="card">
-              <div class="card-img">
-                <img src="assets/img/services-3.jpg" alt="Website Development">
+              <div class="card-icon">
+                <i class="fas fa-laptop-code"></i> <!-- Font Awesome Website Icon -->
               </div>
               <div class="card-body">
                 <h5 class="card-title"><a href="#">Custom Website Development</a></h5>
@@ -196,8 +188,8 @@
 
           <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-left">
             <div class="card">
-              <div class="card-img">
-                <img src="assets/img/services-4.jpg" alt="SEO Services">
+              <div class="card-icon">
+                <i class="fas fa-search"></i> <!-- Font Awesome Search Icon -->
               </div>
               <div class="card-body">
                 <h5 class="card-title"><a href="#">SEO & Local Search</a></h5>
@@ -212,8 +204,8 @@
 
           <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-right">
             <div class="card">
-              <div class="card-img">
-                <img src="assets/img/content.jpeg" alt="Content Marketing">
+              <div class="card-icon">
+                <i class="fas fa-file-alt"></i> <!-- Font Awesome Content Icon -->
               </div>
               <div class="card-body">
                 <h5 class="card-title"><a href="#">Content Marketing</a></h5>
@@ -228,8 +220,8 @@
 
           <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-left">
             <div class="card">
-              <div class="card-img">
-                <img src="assets/img/email.jpeg" alt="Email Marketing">
+              <div class="card-icon">
+                <i class="fas fa-envelope"></i> <!-- Font Awesome Email Icon -->
               </div>
               <div class="card-body">
                 <h5 class="card-title"><a href="#">Email Marketing</a></h5>
@@ -244,8 +236,8 @@
 
           <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-right">
             <div class="card">
-              <div class="card-img">
-                <img src="assets/img/marketing.jpeg" alt="Paid Marketing">
+              <div class="card-icon">
+                <i class="fas fa-bullhorn"></i> <!-- Font Awesome Marketing Icon -->
               </div>
               <div class="card-body">
                 <h5 class="card-title"><a href="#">Paid Marketing</a></h5>
@@ -260,8 +252,8 @@
 
           <div class="col-md-6 d-flex align-items-stretch" data-aos="fade-left">
             <div class="card">
-              <div class="card-img">
-                <img src="assets/img/logo1.jpeg" alt="Branding and Logo">
+              <div class="card-icon">
+                <i class="fas fa-pen-nib"></i> <!-- Font Awesome Branding Icon -->
               </div>
               <div class="card-body">
                 <h5 class="card-title"><a href="#">Branding & Logo Design</a></h5>
@@ -273,16 +265,14 @@
               </div>
             </div>
           </div>
-
         </div>
-
       </div>
     </section><!-- End Services Section -->
 
 
-    
+
     <!-- ======= Portfolio Section ======= -->
-    <section id="pricing" class="pricing section-bg">
+    <section id="packages" class="pricing section-bg">
       <div class="container">
 
         <div class="section-title">
@@ -294,12 +284,12 @@
 
           <div class="col-lg-4 box" data-aos="zoom-in">
             <h3>Video Packages</h3>
-            <h4>Starting from ₹6,500</h4>
+
             <ul>
-              <li><i class="bx bx-check"></i> 3 Videos – ₹6,500/-</li>
-              <li><i class="bx bx-check"></i> 3 Videos (35K Reach via Facebook) – ₹12,500/-</li>
-              <li><i class="bx bx-check"></i> 3 Videos (35K Reach via Facebook & Instagram) – ₹16,500/-</li>
-              <li><i class="bx bx-check"></i> Extra Leads (20-25) – Add ₹4,500/-</li>
+              <li><i class="bx bx-check"></i> 3 Videos </li>
+              <li><i class="bx bx-check"></i> 3 Videos (35K Reach via Facebook) </li>
+              <li><i class="bx bx-check"></i> 3 Videos (35K Reach via Facebook & Instagram)</li>
+              <li><i class="bx bx-check"></i> Extra Leads (20-25) </li>
             </ul>
             <a href="#" class="get-started-btn">Get Started</a>
           </div>
@@ -307,25 +297,24 @@
           <div class="col-lg-4 box featured" data-aos="zoom-in">
             <span class="featured-badge">Featured</span>
             <h3>Web Development Packages</h3>
-            <h4>Starting from ₹4,500</h4>
+
             <ul>
-              <li><i class="bx bx-check"></i> Web Page Design – ₹4,500/-</li>
-              <li><i class="bx bx-check"></i> Complete Website Design + SEO – ₹15,000/-</li>
+              <li><i class="bx bx-check"></i> Web Page Design </li>
+              <li><i class="bx bx-check"></i> Complete Website Design + SEO </li>
             </ul>
-            <p><b>Completion Time:</b> 2-3 days for Web Page Design,<br><b>1 week for Complete Website Design + SEO</b>
-            </p>
+
             <p><i>Domain and hosting charges are additional as per choice.</i></p>
             <a href="#" class="get-started-btn">Get Started</a>
           </div>
           <div class="col-lg-4 box" data-aos="zoom-in">
             <h3>Social Media Power Packages</h3>
-            <h4>Starting from ₹3,500</h4>
+
             <ul>
-              <li><i class="bx bx-check"></i> Facebook Page Handling (Weekly) – ₹3,500/-</li>
-              <li><i class="bx bx-check"></i> Facebook Page Handling (Monthly) – ₹13,000/-</li>
-              <li><i class="bx bx-check"></i> Weekly Leads (20-25) – ₹3,500/-</li>
-              <li><i class="bx bx-check"></i> Weekly Verified Leads (20-25) – ₹8,500/-</li>
-              <li><i class="bx bx-check"></i> Facebook Page Promotion – ₹8,500/-</li>
+              <li><i class="bx bx-check"></i> Facebook Page Handling (Weekly) </li>
+              <li><i class="bx bx-check"></i> Facebook Page Handling (Monthly) </li>
+              <li><i class="bx bx-check"></i> Weekly Leads (20-25) </li>
+              <li><i class="bx bx-check"></i> Weekly Verified Leads (20-25) </li>
+              <li><i class="bx bx-check"></i> Facebook Page Promotion </li>
             </ul>
             <a href="#" class="get-started-btn">Get Started</a>
           </div>
@@ -334,36 +323,34 @@
           <!-- New SEO Packages Box -->
           <div class="col-lg-4 box" data-aos="zoom-in">
             <h3>SEO Packages</h3>
-            <h4>Starting from 3,000</h4>
 
-            <p class="font-italic">Basic SEO Package - ₹3,000</p>
+
+            <p class="font-italic">Basic SEO Package </p>
             <ul>
               <li><i class="bx bx-check"></i> Keyword research</li>
               <li><i class="bx bx-check"></i> On-page SEO</li>
             </ul>
 
-            <p class="font-italic">Complete SEO Package - ₹5,000</p>
+            <p class="font-italic">Complete SEO Package </p>
             <ul>
               <li><i class="bx bx-check"></i> Advanced keyword research</li>
               <li><i class="bx bx-check"></i> On-page, technical & off-page SEO</li>
-              <li><i class="bx bx-check"></i> Content creation and optimization
               </li>
             </ul>
 
             <a href="#" class="get-started-btn">Get Started</a>
           </div>
-         
+
           <!-- New Additional Services Box -->
           <div class="col-lg-4 box" data-aos="zoom-in">
             <h3>Additional Services</h3>
-            <h4>Starting from ₹4,500</h4>
+
             <ul>
-              <li><i class="bx bx-check"></i> Anchoring Services – ₹25,000/-</li>
-              <li><i class="bx bx-check"></i> Graphics + Voiceover (25K Reach) – ₹4,500/-</li>
+              <li><i class="bx bx-check"></i> Anchoring Services </li>
+              <li><i class="bx bx-check"></i> Graphics + Voiceover (25K Reach) </li>
             </ul>
-            <p><i>Professional anchoring to engage your audience and add a personal touch to your events.</i></p>
-            <p><i>Catch attention with custom-designed graphics and captivating voiceovers, reaching 25,000 potential
-                customers.</i></p>
+            <p><i>Engaging professional anchoring.</i></p>
+            <p><i>Custom graphics and voiceovers for 25,000 customers.</i></p>
             <a href="#" class="get-started-btn">Get Started</a>
           </div>
 
@@ -393,8 +380,7 @@
                   <i class="bx bx-map"></i>
                   <h3>Our Address</h3>
                   <p>
-                    <a href="https://maps.app.goo.gl/yBskrtzYQtAdsuwf7"
-                      target="_blank" rel="noopener noreferrer">
+                    <a href="https://maps.app.goo.gl/yBskrtzYQtAdsuwf7" target="_blank" rel="noopener noreferrer">
                       2nd Floor, Vattomthottiyil Building,<br>
                       Near Passport Office, Kottayam<br>
                       686001
@@ -424,7 +410,7 @@
 
           </div>
 
-         
+
 
         </div>
 
